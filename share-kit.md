@@ -1,6 +1,7 @@
-# Share Kit
+# Share Kit / 项目介绍
 
-Short posts for sharing `wechat-miniapp-factory`.
+Short posts for sharing `wechat-miniapp-factory`.  
+下面这些可以直接发到朋友圈、即刻、V2EX、X、Telegram 或微信群，按平台语气稍微改两句就行。
 
 ## Chinese
 
@@ -36,7 +37,16 @@ https://github.com/tianmind-studio/wechat-miniapp-factory
 
 Feedback and issues are welcome.
 
-## Short Version
+## Short Version / 短版
+
+Chinese:
+
+我开源了一个微信小程序工厂 skill：
+一句话想法 → 原生小程序脚手架 → CloudBase-ready 结构 → 本地校验 → 提审前审核员预审。
+
+https://github.com/tianmind-studio/wechat-miniapp-factory
+
+English:
 
 I open-sourced a WeChat Mini Program factory skill for Codex/Claude:
 idea → native Mini Program scaffold → validation → pre-submission review.
