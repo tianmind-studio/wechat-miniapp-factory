@@ -1,0 +1,7 @@
+interface:
+  display_name: "微信小程序审核员"
+  short_description: "提审前模拟审核，定位过审风险和整改点"
+  default_prompt: "Use $wechat-miniapp-reviewer to review this WeChat Mini Program before submission."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "微信小程序工厂"
+  short_description: "一句话生成微信小程序项目并完成提审前预审"
+  default_prompt: "Use $wechat-miniapp-factory to turn this idea into a review-ready WeChat Mini Program."
+
+policy:
+  allow_implicit_invocation: true
