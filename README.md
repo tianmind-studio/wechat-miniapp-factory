@@ -9,8 +9,8 @@ This repo packages two Codex / Claude-compatible skills:
 
 - `wechat-miniapp-factory`: 小程序生成总控，负责从需求到项目骨架、CloudBase-ready 结构、校验和交付文档。  
   The orchestrator that turns an idea into a runnable Mini Program project with validation and handoff docs.
-- `wechat-miniapp-reviewer`: 小程序审核员，负责服务类目、隐私、内容安全、虚拟支付和常见驳回风险的提审前检查。  
-  A strict pre-submission reviewer for service category, privacy, content safety, virtual payment, and common rejection risks.
+- `wechat-miniapp-reviewer`: 小程序审核员，负责服务类目、隐私、内容安全、虚拟交易和常见驳回风险的提审前检查。  
+  A strict pre-submission reviewer for service category, privacy, content safety, virtual transaction, and common rejection risks.
 
 它适合想快速做微信小程序原型、课程/毕设 demo、客户方案验证，或者把 Codex / Claude skills 用在真实交付里的开发者。  
 It is useful for Mini Program prototypes, student projects, client demos, and agentic coding workflows that need real project files instead of a one-off AI code dump.
@@ -110,7 +110,7 @@ The generated project stays simple on purpose, so it can be adapted to a real pr
 - 隐私政策或权限说明缺失 / missing privacy or permission explanation
 - UGC 没有内容安全处理 / UGC without content safety handling
 - 诱导分享、诱导关注、诱导下载 / induced sharing, following, or app download
-- 虚拟支付和外部支付跳转风险 / virtual payment and external payment routing risk
+- 虚拟交易和外部交易跳转风险 / virtual transaction and external transaction routing risk
 - 审核路径不清楚 / reviewer path hidden behind confusing UI
 - 绕开、规避或欺骗平台审核的设计 / attempts to bypass or deceive platform review
 
