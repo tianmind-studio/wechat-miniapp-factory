@@ -1,0 +1,33 @@
+<view class="page">
+  <view class="section">
+    <view class="title">{{currentTopic.category}}</view>
+    <view class="subtitle">{{currentTopic.text}}</view>
+  </view>
+
+  <view class="dice-container section">
+    <view class="dice {{rolling ? 'rolling' : ''}}">
+      {{diceDisplay}}
+    </view>
+  </view>
+
+  <view class="players-section card section">
+    <view class="players-title">参与玩家</view>
+    <view class="players-list">
+      <view 
+        class="player-item {{selectedPlayer && selectedPlayer.id === player.id ? 'selected' : ''}}"
+        wx:for="{{players}}"
+        wx:key="id"
+        wx:for-item="player"
+      >
+        <view class="player-avatar">{{player.avatar}}</view>
+        <view class="player-name">{{player.name}}</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="action-area">
+    <button class="btn-primary roll-btn" bindtap="rollDice" disabled="{{rolling}}">
+      {{rolling ? '🎲 摇动中...' : '🎲 摇骰子'}}
+    </button>
+  </view>
+</view>

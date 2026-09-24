@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/topic/index",
+    "pages/roll/index",
+    "pages/result/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "骰盅组局",
+    "navigationBarBackgroundColor": "#6366F1",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#F5F3FF"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

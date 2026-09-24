@@ -1,0 +1,50 @@
+<view class="page">
+  <view class="section">
+    <view class="title">🎲 骰盅组局</view>
+    <view class="subtitle">选一道题，然后摇骰决定谁来回答</view>
+  </view>
+
+  <view class="card section">
+    <view class="category-title">选择分类</view>
+    <view class="category-list">
+      <view 
+        class="category-item {{selectedCategory === '真心话' ? 'active' : ''}}"
+        bindtap="selectCategory"
+        data-category="真心话"
+      >
+        💬 真心话
+      </view>
+      <view 
+        class="category-item {{selectedCategory === '大冒险' ? 'active' : ''}}"
+        bindtap="selectCategory"
+        data-category="大冒险"
+      >
+        🎭 大冒险
+      </view>
+      <view 
+        class="category-item {{selectedCategory === '谁最可能' ? 'active' : ''}}"
+        bindtap="selectCategory"
+        data-category="谁最可能"
+      >
+        🤔 谁最可能
+      </view>
+    </view>
+  </view>
+
+  <view class="card section" wx:if="{{currentTopic}}">
+    <view class="topic-card">
+      <view class="tag">{{currentTopic.category}}</view>
+      <view class="topic-text">{{currentTopic.text}}</view>
+      <view class="topic-level">难度：{{levelText}}</view>
+    </view>
+  </view>
+
+  <view class="action-area">
+    <button class="btn-secondary" bindtap="randomTopic">
+      🔄 换一道
+    </button>
+    <button class="btn-primary" bindtap="goRoll" disabled="{{!currentTopic}}">
+      继续摇骰 →
+    </button>
+  </view>
+</view>
