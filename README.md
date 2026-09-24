@@ -75,6 +75,30 @@ Then ask Codex to customize it:
 Use $wechat-miniapp-factory to turn this idea into a review-ready WeChat Mini Program.
 ```
 
+## 文档 / Documentation
+
+- [脚手架使用指南 / Scaffold Guide](docs/scaffold-guide.md)：详细的脚手架命令参数和生成目录说明
+- [构建与预览指南 / Build & Preview Guide](docs/devtools-build-preview.md)：如何在微信开发者工具中导入、编译和真机预览
+- [常见踩坑 / Common Pitfalls](docs/common-pitfalls.md)：备案、名称规范、隐私合规、服务类目等常见问题
+
+## 示例项目 / Examples
+
+### 骰盅组局 / Dice Party
+
+一个完整的聚会游戏小程序示例：选题 → 摇骰 → 结果展示。
+
+A complete party game Mini Program example: pick a topic → roll dice → show result.
+
+```bash
+# 运行示例项目校验
+cd examples/dice-party
+npm test
+
+# 在微信开发者工具中导入 examples/dice-party 目录即可预览
+```
+
+详见 [examples/dice-party/README.md](examples/dice-party/README.md)
+
 ## 生成内容 / What Gets Generated
 
 脚手架会生成：

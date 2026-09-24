@@ -1,0 +1,65 @@
+.result-hero {
+  text-align: center;
+  padding: 60rpx 0;
+}
+
+.result-avatar {
+  font-size: 120rpx;
+  margin-bottom: 20rpx;
+}
+
+.result-name {
+  font-size: 48rpx;
+  font-weight: 700;
+  color: #6366F1;
+  margin-bottom: 12rpx;
+}
+
+.result-label {
+  font-size: 32rpx;
+  color: #6B7280;
+}
+
+.topic-text {
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-top: 20rpx;
+  color: #1E1B4B;
+}
+
+.dice-result {
+  text-align: center;
+  padding: 32rpx 0;
+}
+
+.dice-label {
+  font-size: 24rpx;
+  color: #9CA3AF;
+  margin-bottom: 12rpx;
+}
+
+.dice-value {
+  font-size: 80rpx;
+}
+
+.action-area {
+  display: flex;
+  gap: 20rpx;
+  margin-top: 40rpx;
+}
+
+.action-area button {
+  flex: 1;
+}
+
+.home-link {
+  text-align: center;
+  margin-top: 40rpx;
+}
+
+.link-text {
+  font-size: 28rpx;
+  color: #6366F1;
+  text-decoration: underline;
+}

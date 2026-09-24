@@ -1,0 +1,30 @@
+<view class="page">
+  <view class="result-hero section">
+    <view class="result-avatar">{{result.player.avatar}}</view>
+    <view class="result-name">{{result.player.name}}</view>
+    <view class="result-label">被选中了！</view>
+  </view>
+
+  <view class="card section">
+    <view class="tag">{{result.topic.category}}</view>
+    <view class="topic-text">{{result.topic.text}}</view>
+  </view>
+
+  <view class="dice-result section">
+    <view class="dice-label">骰子点数</view>
+    <view class="dice-value">{{diceEmoji}}</view>
+  </view>
+
+  <view class="action-area">
+    <button class="btn-secondary" bindtap="reroll">
+      🔄 重新摇
+    </button>
+    <button class="btn-primary" bindtap="newTopic">
+      📝 换一题
+    </button>
+  </view>
+
+  <view class="home-link">
+    <text class="link-text" bindtap="goHome">返回首页</text>
+  </view>
+</view>

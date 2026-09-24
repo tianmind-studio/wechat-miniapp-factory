@@ -1,0 +1,9 @@
+{
+  "name": "dice-party",
+  "version": "0.1.0",
+  "private": true,
+  "description": "骰盅组局示例小程序 - Dice Party Mini Program Example",
+  "scripts": {
+    "test": "node tests/validate-miniapp.js"
+  }
+}
